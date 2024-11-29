@@ -1,0 +1,60 @@
+body {
+  background-color: rgb(53, 53, 53);
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px 34px;
+}
+
+.semi_main {
+  background-image: linear-gradient(#000B18, #00172D);
+  display: grid;
+  grid-template-columns: 350px;
+  grid-template-rows: 350px 50px 50px;
+  border-radius: 10px;
+  padding: 20px;
+  align-items: center;
+  justify-content: center;
+}
+
+.cover img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.box1 {
+  width: 325px;
+  text-align: center;
+  color: darkgrey;
+  margin: auto;
+}
+
+.back-to-projects {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.back-to-projects a {
+  text-decoration: none;
+  color: white;
+  background-color: #590000;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 18px;
+  transition: background-color 0.3s;
+}
+
+.back-to-projects a:hover {
+  background-color: #003C5A;
+}
