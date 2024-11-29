@@ -459,7 +459,10 @@ audio {
 /* Media Query for Mobile Devices */
 @media (max-width: 768px) {
   html {
+      display: flex;
       font-size: 50%; /* Reduce base font size for smaller screens */
+      justify-content: center;
+      alighn-items: center;
   }
 
   .header {
